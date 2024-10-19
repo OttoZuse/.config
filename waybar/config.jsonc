@@ -101,9 +101,12 @@
         "device": "intel_backlight",
         "format": "{icon} {percent}%",
         "format-icons": [
-            "󰃞",
-            "󰃟",
-            "󰃠"
+            // "󰃞",
+            // "󰃟",
+            // "󰃠"
+            "*",
+            "*",
+            "*"
         ],
         "on-scroll-up": "brightnessctl -q set 1%+",
         "on-scroll-down": "brightnessctl -q set 1%-"
